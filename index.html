@@ -56,6 +56,8 @@
                     * Aro and NLP
                     * What I did at Kiha
                     * Hackathon!
+                    * What was most useful from CLMA
+                    * What I learned about NLP outside of CLMA
                     * Final words
                     * Q/A
                 </section>
@@ -69,17 +71,14 @@
                 </section>
 
                 <section data-markdown>
-                    ##![Aro Mobile logo](images/aro.png)
-                    * Service and personal information manager (PIM) that:
+                    ## Aro Mobile
+                    * Service and personal information manager (PIM) for Android that:
                       * Understands your data
                       * Makes you faster and more efficient at managing email, contacts, calendar
-                </section>
-
-                <section data-markdown>
-                    ## Aro Mobile
                     * Email client
                     * Contacts manager
                     * Calendar
+                    <img src="images/aro.png" alt="Aro Mobile logo" style="position: absolute; right: 0; bottom: 5px"/>
                 </section>
 
                 <section data-markdown>
@@ -92,9 +91,18 @@
 
                 <section>
                     <h2>Aro Mobile -- how does it work?</h2>
-                    <h3>Example:</h3>
                     <pre><code>
-Hi Josh, what's up? Emily
+Hi <em>Josh</em>,
+
+Could you give <em>Mark a call at 3pm tomorrow</em>?
+
+Thanks,
+
+<em>Bob</em>
+
+Bob the Builder
+1337 Pro Builder Lane
+Seattle, WA 98122
                     </code></pre>
                 </section>
 
@@ -105,55 +113,74 @@ Hi Josh, what's up? Emily
                 </section>
 
                 <section data-markdown>
-                    * bubbleator
+                    ## Aro and NLP
+                    * Entity Extraction Service (EES)
+                    * Extracted entities:
+                      * Names, places, businesses
+                      * Phone numbers
+                      * Tracking numbers (USPS, UPS, Fedex)
+                      * Flight numbers
+                      * Email signatures
+                      * Calendar events
+                      * Addresses
+                      * Email addresses
                 </section>
 
                 <section data-markdown>
-                    # Aro and NLP
-                    * ees
-                    * what we used for EES
-                    * ner, m3 for names/places/businesses
-                    * grammar for phone numbers
-                    tracking numbers for UPS (it had special format stuff)
-                    flight numbers
+                    <h2>Bubbleator Live Wallpaper</h2>
+                    <img src='images/bubbleator.png'/>
                 </section>
 
                 <section data-markdown>
-                    # What I did at Kiha
-                    * Feature engineering
+                    ## What I did at Kiha
                     * Automating model training through continuous integration with Maven
+                    * Feature engineering for NER models
                     * Improving performance, while maintaining precision/recall
                 </section>
 
                 <section data-markdown>
                     # Hackathon!
+                    * Extending EES: recognizing conference call meeting numbers
+                    * Hacking the Android app to auto-dial conference calls
+<pre><code>
+Hi Bob,
+
+Dora the Explorer invites you to attend this online meeting.
+
+Topic: Computational Linguistics
+Date: Monday, January 10, 2013
+Time: 2:15 pm, Pacific Standard Time (San Francisco, GMT-08:00)
+Meeting Number: 736 771 237
+CCP:+16504293300x736771237#
+</code></pre>
                 </section>
 
-                <!--
-                * what classes were useful?
-                * what did i learn about nlp that i didn't learn from class?
-                  * use boring techniques, because they work!
-                  * use existing libaries, most of my time was spent thinking about features (not algorithms)
-                  * learn to have a good sense of what "good" perf / P/R is, so you know when you're "done"
-                  -->
+                <section data-markdown>
+                    ## What was most useful from CLMA
+                    * 570, 572
+                    * i2b2 Medical Extraction Challenge
+                    * Experience with MALLET, libSVM
+                    * Familiarity with what algorithms and techniques are available
+                </section>
 
                 <section data-markdown>
-                    # Final words
+                    ## What I learned about NLP outside of CLMA
+                    * Use existing libaries, most of my time was spent thinking about features (not algorithms)
+                    * Sometimes boring techniques are good enough (e.g. name recognition from list of names)
+                    * Learn to have a sense of what "good enough" performance is
+                </section>
+
+                <section data-markdown>
+                    ## Final words
                     * Kiha has since rebranded and changed their product vision (now a personal assistant thingy?)
-                    * For current job seekers: HN Meetup, Seattle.rb, Android Meetup, Beer && Code
+                    * For current job seekers: Hacker News Meetup, Seattle.rb, Android Meetup, Beer && Code
                 </section>
 
                 <section data-markdown>
                     # Questions?
                 </section>
 
-                <!-- About Kiha, what the product was, where Kiha is now -->
-                <!-- custom actions on different entities -->
-                <!-- what i did for hackathon, conference calls, etc. -->
-                <!-- The different types of entities that were extracted, what techniques for each,
-                     what libs for each -->
 
-                <!-- Livestar, what the product is -->
 			</div>
 
 			<!-- The navigational controls UI -->
